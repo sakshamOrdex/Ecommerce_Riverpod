@@ -38,6 +38,7 @@ class Login extends StatelessWidget {
                   ),
                   SizedBox(height: 15),
                   TextField(
+                    obscureText: true,
                     controller: password,
                     decoration: InputDecoration(
                       hint: Text("Enter password"),

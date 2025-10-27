@@ -105,6 +105,7 @@ class Details extends ConsumerWidget {
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(builder: (context) => Home()),
+                  
                   );
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(
